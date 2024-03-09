@@ -63,7 +63,7 @@ form button:hover {
 }
 
 .display {
-  font-size: 2em;
+  font-size: 3em;
   width: 100%;
   text-align: right;
   background: #5e5a66;
@@ -74,7 +74,7 @@ form button:hover {
   height: 50px;
   font-size: 1em;
   border: none;
-  background: #76737e;
+  background: #6a6872;
   cursor: pointer;
 }
 
