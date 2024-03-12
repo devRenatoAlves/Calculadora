@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: #1a1625;
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: #070F2B;
+  --primary-color-darker: #1B1A55;
 }
 
 * {
@@ -20,11 +20,11 @@ body {
 
 .container {
   color: #908d96;
-  max-width: 640px;
+  max-width: 650px;
   margin: 50px auto;
-  background: #2f2b3a;
+  background: #1B1A55;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 form input, form label, form button {
@@ -59,25 +59,30 @@ form button:hover {
 }
 
 .calculadora {
-  width: 400px;
+  width: 600px;
+  height: 500px
 }
 
 .display {
   font-size: 3em;
   width: 100%;
   text-align: right;
-  background: #5e5a66;
+  background: #535C91;
 }
 
 .btn {
-  width: 100%;
-  height: 50px;
+  width: 90%;
+  height: 60px;
   font-size: 1em;
   border: none;
-  background: #6f6d79;
+  background: #535C91;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #aa9f9f;
+  background: #9290C3;
+}
+
+.titulo {
+  text-align: center;
 }
